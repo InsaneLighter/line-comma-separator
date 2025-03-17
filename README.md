@@ -13,7 +13,7 @@
 
 1. 在 VSCode 中选中要处理的文本
 2. 按下 `Ctrl+Shift+P`（Windows/Linux）或 `Cmd+Shift+P`（Mac）打开命令面板
-3. 输入 "用逗号分隔行" 并选择该命令
+3. 输入 "Line Comma Separator" 并选择该命令
 4. 在弹出的选项中选择是否需要用单引号包裹每一行
 5. 选中的文本将被处理并替换为用逗号分隔的形式
 

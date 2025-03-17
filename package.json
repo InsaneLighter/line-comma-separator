@@ -9,12 +9,15 @@
   "categories": [
     "Other"
   ],
+  "activationEvents": [
+    "onCommand:extension.separateWithCommas"
+  ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
         "command": "extension.separateWithCommas",
-        "title": "用逗号分隔行"
+        "title": "Line Comma Separator"
       }
     ]
   },
