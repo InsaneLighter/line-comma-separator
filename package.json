@@ -24,7 +24,7 @@
     "publish": "vsce publish"
   },
   "keywords": ["comma", "separator", "text", "format"],
-  "author": "",
+  "author": "Huang",
   "license": "MIT",
   "repository": {
     "type": "git",
