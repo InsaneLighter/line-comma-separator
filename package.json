@@ -1,7 +1,7 @@
 {
   "name": "line-comma-separator",
-  "displayName": "Line Comma Separator",
-  "description": "将文本行用逗号分隔，可选择是否添加单引号",
+  "displayName": "行分隔器",
+  "description": "将文件中的每一行用英文逗号分隔，可选择是否用单引号包裹",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.60.0"
@@ -10,29 +10,24 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.separateWithCommas"
+    "onCommand:extension.separateWithCommas",
+    "onStartupFinished"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
         "command": "extension.separateWithCommas",
-        "title": "Line Comma Separator"
+        "title": "用逗号分隔行"
       }
     ]
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "vsce package",
-    "publish": "vsce publish"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["comma", "separator", "text", "format"],
-  "author": "Huang",
+  "keywords": [],
+  "author": "",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/InsaneLighter/line-comma-separator"
-  },
   "dependencies": {
     "@types/vscode": "^1.60.0"
   }
